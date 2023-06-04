@@ -103,7 +103,7 @@ function createMovieComponent(all) {
     }
     else if (e.target.src === "http://127.0.0.1:5501/img/like-red.png") {
       e.target.src = "http://127.0.0.1:5501/img/like.png";
-      Model.Liked_Movies = Model.Liked_Movies.filter(name => name !== all.title);
+      Model.Liked_Movies = Model.Liked_Movies.filter(name => name !== all);
     }
   })
 

@@ -92,7 +92,7 @@ function createMovieComponent(all) {
 
   /* Checking Like */
   if (Model.Liked_Movies.includes(all)) {
-    likeButton.src = "http://127.0.0.1:5501/img/like-red.png";
+    likeButton.src = "https://scott-webmovies.netlify.app/img/like-red.png";
   }
 
   /* Switching Like Button */

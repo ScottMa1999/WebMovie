@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Movie.css">
+  <script src="./Movie.js" defer></script>
+  <title>Movie DB</title>
+</head>
+<body>
+  <header>
+    <a href="./Movie.html"><img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg" alt="Company Icon"></a>
+    <nav>
+      <a href="./Movie.html"><h2 class="HOME">HOME</h2></a>
+      <a href="./Movie.html"><h2 class="Liked">LIKED LIST</h2></a>
+    </nav>
+  </header>
+  <main>
+    <div class="selection">
+      <form>
+        <label for="Category" id="categoryIcon"><img src="./img/category.png" alt="Category Icon"></label>
+        <select id="Category" name="Category">
+          <option value="Popular" selected>Popular</option>
+          <option value="NowPlaying">Now playing</option>
+          <option value="TopRated">Top rated</option>
+          <option value="UpComing">Up coming</option>
+        </select>
+      </form>
+      <div class="pages">
+        <button id="previous"><img src="./img/previous.png" alt="previous"></button>
+        <button id="next"><img src="./img/next.png" alt="next"></button>
+      </div>
+    </div>
+    <div class="movieList">
+      <!-- different movies -->
+      <!-- <section class="movie-name">
+        <div class="poster">
+          <img src="xxx" alt="xxx">
+          <div class="content">
+            <h2 class="title"></h2>
+            <p class="introduction"></p>
+          </div>
+          <div class="buttons">
+            <button class="like"></button>
+            <button class="favorite"></button>
+          </div>
+        </div>
+
+        <div class="popup hidden">
+          <img src="xxxx" alt="popup-img" />
+          <section class="popup-content">
+            <div class="popup-title">
+              <h1>xxxxxxxxxx</h1>
+            </div>
+            <div class="popup-overview">
+              <p>xxxxxxxxxxxx</p>
+            </div>
+            <div class="popup-genres">
+              <p>xxxxxxx</p>
+              <p>xxxxxxx</p>
+              <p>xxxxxxx</p>
+            </div>
+            <div class="popup-rating">
+              <p>xxxx</p>
+            </div>
+            <div class="popup-productionCompany">
+              <img src="xxx" alt="xxx" />
+              <img src="xxx" alt="xxx" />
+              <img src="xxx" alt="xxx" />
+              <img src="xxx" alt="xxx" />
+            </div>
+          </section>
+        </div>
+      </section> -->
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>

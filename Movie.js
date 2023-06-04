@@ -97,12 +97,12 @@ function createMovieComponent(all) {
 
   /* Switching Like Button */
   likeButton.addEventListener('click',(e) => {
-    if (e.target.src === "http://127.0.0.1:5501/img/like.png") {
-      e.target.src = "http://127.0.0.1:5501/img/like-red.png";
+    if (e.target.src === "https://scott-webmovies.netlify.app/img/like.png") {
+      e.target.src = "https://scott-webmovies.netlify.app/img/like-red.png";
       Model.Liked_Movies.push(all);
     }
-    else if (e.target.src === "http://127.0.0.1:5501/img/like-red.png") {
-      e.target.src = "http://127.0.0.1:5501/img/like.png";
+    else if (e.target.src === "https://scott-webmovies.netlify.app/img/like-red.png") {
+      e.target.src = "https://scott-webmovies.netlify.app/img/like.png";
       Model.Liked_Movies = Model.Liked_Movies.filter(name => name !== all);
     }
   })

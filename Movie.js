@@ -192,6 +192,9 @@ const prev = document.querySelector('#previous');
 
 next.addEventListener('click',() => {
   page += 1;
+  if (prev.disabled === true) {
+    prev.disabled = false;
+  }
   const movies = document.querySelectorAll('.movie-name');
   movies.forEach(movie => {
     Movies.removeChild(movie);
